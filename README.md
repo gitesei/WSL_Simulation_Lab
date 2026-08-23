@@ -2,7 +2,7 @@
 
 This notebook guides the user through the setup, simulation, visualization, and analysis of a periodic box of TIP4P/2005 water using OpenMM.
 
-The workflow includes energy minimization, NVT and NPT equilibration, hydrogen-bond analysis, calculation of the oxygen–oxygen radial distribution function, and estimation of the self-diffusion coefficient.
+The workflow includes energy minimization, NVT and NPT equilibration, hydrogen-bond analysis, calculation of the oxygen–oxygen radial distribution function, and analysis of rotational dynamics.
 
 ## Getting started
 
@@ -18,6 +18,7 @@ The final cell creates a ZIP archive containing:
 
 - `NPT_traj.dcd`: NPT trajectory;
 - `EM_top.pdb`: energy-minimized topology;
+- `analysis_results.csv`: summary of simulation results;
 - `figures/`: plots generated during the analyses.
 
 ## Authors
